@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        gradlePluginPortal()
+    }
+    plugins {
+        id 'fabric-loom' version '0.8-SNAPSHOT'
+    }
+}
+rootProject.name = "fabric-example-mod"
+
+include 'main'
